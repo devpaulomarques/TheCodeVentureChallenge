@@ -278,3 +278,7 @@
 .numero {
   vertical-align: super;
 }
+
+.shares {
+  text-align: right;
+}
