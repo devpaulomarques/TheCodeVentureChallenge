@@ -126,26 +126,6 @@
   background-color: #ececec;
 }
 
-.active-btn:after {  
-  position: absolute;
-    content: '';
-    top: 100%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-    -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-    transform: translateX(-50%) translateY(-50%) rotate(45deg);
-    background: 0 0;
-    margin: .5px 0 0;
-    width: .57142857em;
-    height: .57142857em;
-    border: none;
-    border-bottom: 1px solid #D4D4D5;
-    border-right: 1px solid #D4D4D5;
-    z-index: 2;
-    -webkit-transition: background .1s ease;
-    transition: background .1s ease;
-}
-
 .blog-container {
   background: #fff;
   border-radius: 5px;
